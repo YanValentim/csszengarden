@@ -1,0 +1,134 @@
+header {
+    margin-bottom: 0px;
+    #titulo{
+        font-weight: 100;
+        font-size: 2em;
+        font-family: 'Julius sans one', helvetica, sans-serif;
+        
+       
+    }
+    #subtitulo{
+        color: rgb(190, 185, 185);
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 100;
+        
+        
+        
+    }    
+    
+    .cabecalho{
+    
+    border-top: 20px #19575a solid;
+    background-image: url("media/pexels-luis-del-río-15286.jpg");
+    display: flex;
+    font-size: 1.6em;
+    height: 320px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+
+    .cabecalho-conteudo{
+      line-height: 25px;
+      margin-left: 50px;
+      
+      
+      
+    }
+    
+  
+   .container-cabecalho{
+        display: flex;
+        flex-direction: row;
+        transition:background-color ease-in-out 1s;
+        border-radius: 20px;
+        margin-left: 5em;
+      
+      
+
+      
+       
+       #symbol{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        border:3vw #19575a solid;
+        margin-left: 5px;
+        
+        
+      
+        
+        }
+   }
+}
+
+   
+    
+   .container-sub-cabecalho{
+      
+      background-color: rgba(27, 77, 26, 0.658);
+      height: 320px;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      
+
+       .container-arrows{
+        display: flex;
+       flex-direction: row;
+        height: 70px;
+        
+        
+        
+        
+        
+
+            div{
+            width: 262px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.055);
+            transition: background-color ease-in-out 1s;
+            height: 70px;
+            
+            
+            
+            
+        }
+        
+            .arrows{
+            height: 55px;
+            width: 70px;
+            font-size: 70px;
+            position: relative;
+            padding: 3px 0px 12px 0px ;
+            
+            
+            
+            
+            
+            
+        
+           
+            
+        }
+        
+        
+    }
+   }
+    
+}
+
+
+//hovers
+
+header{
+   
+    .container-arrows{
+        div:hover{
+            background-color: rgba(255, 255, 255, 0.219);
+            cursor: pointer;
+        }
+    }
+}

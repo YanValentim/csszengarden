@@ -1,0 +1,366 @@
+@media only screen and(max-width: 1339px){
+    
+
+    .container-dark-links{
+        padding-bottom: 32px;
+       
+
+        }
+    
+}
+
+@media only screen and(max-width: 1315px){
+.container-light-links{
+    padding-bottom: 32px;
+}
+
+}
+
+@media only screen and(max-width: 1287px){
+
+    .container-dark-links{
+        padding-bottom: 64px;
+}
+
+}
+
+@media only screen and(max-width: 1269px){
+    .container-light-links{
+        padding-bottom: 64px;
+    }
+}
+
+//WIDTH 1250PX SCREEN
+
+@media only screen and(max-width: 1250px){
+
+
+header{
+    .cabecalho{
+        flex-direction: column;
+        height: auto;
+    
+    .container-cabecalho{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        border-radius: 0px;
+        #symbol{
+            height: 30px;
+            width: 30px;
+            transform: translateY(30px);
+        }
+        
+    }
+  
+    }
+
+    .container-sub-cabecalho{
+        width: 100%;
+        padding: 0px;
+        height: 70px;
+        #botao-meio{
+            width: 90%;
+        }
+        .container-arrows{
+            width: 100%;
+            
+        }
+        }
+        
+    }
+
+.container-principal{
+    flex-direction: column;
+    nav{transform: translateY(375px);
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        
+
+        .linha-horizontal-lateral{
+            display: none;
+            font-size: 0px;
+            width: 0px;
+            height: 0px;
+        }
+
+        .linha-horizontal{
+            border-bottom:1px #9aacac solid;
+            width: 100%;
+        }
+       
+
+        .bloco-links{
+            width: 236px;
+            padding: 0px 10%;
+        
+        }
+
+        .titulo-dark-links{
+            width: 240px;
+            padding: 0px 10%;
+        }
+
+      
+
+        .container-duo-links{
+            margin-left: 0px;
+            display: flex;
+            flex-direction: row;
+            
+            justify-content: space-between;
+            width: 100%;
+            word-wrap: break-word;
+      
+        }
+        .container-light-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            padding: 0px;
+        }
+        
+        .container-dark-links{
+            padding: 0px;
+            height: auto;
+        }
+    }
+}
+
+section{
+    font-size: 16px;
+}
+
+footer{
+    transform: translateY(-538px);
+    .background-footer{
+        height: 250px;
+        .background-footer-color{
+            font-size: 30px;
+            
+            p{
+                width: 75%;
+                line-height: 50px;
+            }
+        }
+    }
+    .container-footerlinks{
+        height: 122px;
+    }
+}
+   
+}
+
+
+
+//WIDTH 810PX SCREEN
+@media only screen and(max-width: 810px) {
+   
+    footer{
+        transform: translateY(-598px)
+    }
+    header{
+
+        
+        
+        #titulo{
+            font-size:30px ;
+        }
+        #subtitulo{
+            font-size: 16px;
+        }
+        .cabecalho{
+            .container-cabecalho{
+                #symbol{
+                    height: 5px;
+                    width: 5px;
+                    
+                }
+            }
+            .container-sub-cabecalho{
+                .container-arrows{
+                    #botao-meio{
+                        overflow-x: hidden;
+                    }
+                }
+            }
+        }
+    }
+    
+    nav{
+        .bloco-links{
+            height: auto;
+            p{
+                font-size: 12px;
+                line-height: 20px;
+            }
+            
+        }
+    }
+    
+    
+}
+
+//media query 789
+@media only screen and(max-width: 788px){
+    
+    footer{
+        transform: translateY(-600px)
+    }
+   
+    
+   
+}
+//media 785
+
+@media only screen and(max-width: 785px){
+
+    footer{
+        transform: translateY(-625px);
+    }
+
+}
+
+//media 776
+@media only screen and(max-width: 776px){
+
+    footer{
+        transform: translateY(-510px);
+    }
+
+    nav{
+    .container-light-links{
+        .titulo-links{
+            height: 20px;
+            font-size: 15px;
+        }
+    }
+   .container-dark-links{font-size: 15px;}
+}
+    
+    
+}
+
+//MEDIA QUERY 670 PX MAXIMO
+
+@media only screen and(max-width: 670px){
+
+footer{
+    .background-footer{
+        .background-footer-color{
+            p{
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .container-footerlinks{
+        .container-footerlinks-position{
+            div{
+                width: 35px;
+                height: 35px;
+                i{
+                    font-size: 20px;
+                    transform: translateY(-2px);
+                    
+                }
+                span{
+                    top: 0px;
+
+                }
+            }
+        }
+    }
+}
+
+
+}
+
+//media 622
+@media only screen and(max-width: 622px){
+    .paddings-section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer{
+        transform: translateY(-526px);
+    }
+}
+
+//MEDIA QUERY 442
+
+
+
+@media only screen and(max-width: 442px){
+    footer{
+        transform: translateY(-425px);
+    }
+    
+    nav{
+        .container-light-links{
+            .titulo-links{
+                
+                font-size: 0.6em;
+            }
+        }
+        
+        .container-dark-links{
+            font-size: 0.6em;
+        
+    }
+
+}
+}
+
+//media 414
+
+@media only screen and(max-width: 414px){
+    footer{
+        transform: translateY(-435px);
+    }
+}
+
+//media 402
+
+@media only screen and(max-width:402px){
+    footer{
+        transform: translateY(-455px);
+    }
+}
+
+//media 395
+
+@media only screen and(max-width:394px){
+    footer{
+        transform: translateY(-475px);
+    }
+}
+
+//media 392
+@media only screen and(max-width: 391px){
+    footer{
+        transform: translateY(-495px);
+    }
+}
+
+//media 381
+@media only screen and(max-width: 381px){
+    footer{
+        transform: translateY(-490px);
+    }
+}
+
+//media 321
+
+//media 402
+
+@media only screen and(max-width:321px){
+    footer{
+        transform: translateY(-500px);
+    }
+}

@@ -1,0 +1,82 @@
+//extend
+.paddings-section{
+     
+    padding-top: 50px;
+    margin-left: 120px;
+    padding-bottom: 50px;
+    margin-right: 60px;
+}
+
+
+.download-symbol{
+    width: 100px;
+}
+
+.container-conteudo-principal{
+    
+    width: 100%;
+}
+
+section{
+    a{
+        color: rgb(82, 162, 236);
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+        
+        line-height: 32px;
+        font-size: 22px;
+        color: #325050;
+        
+        
+        
+        .botao-download{
+            color: #677575;
+            padding: 10px;
+            transition: 0.7s;
+            font-size: 18px;
+    
+        }
+
+        h3{
+            
+            font-weight: 100;
+
+        }
+    }
+
+#section1{
+    @extend .paddings-section;
+    padding-bottom: 0px;
+}
+
+#section2{
+    padding-top: 0px;
+}
+
+ #section2, #section3, #section4{
+    
+    
+    @extend .paddings-section;
+    
+    
+    
+}
+#section3, .fundo-section3{
+    background-color: #c0d8d8;
+    
+}
+
+
+//hover
+
+section{
+
+    .botao-download:hover{
+        
+        border-radius: 10px;
+        background-color: #325050;
+        color: white;
+    }
+}

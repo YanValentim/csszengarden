@@ -4,12 +4,16 @@
         .cabecalho {
             flex-direction: column;
             height: auto;
+            .cabecalho-conteudo {
+                line-height: 40px;
+            }
             .container-cabecalho {
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 margin-left: 0px;
                 border-radius: 0px;
+                line-height: 50px;
                 #symbol {
                     height: 30px;
                     width: 30px;
@@ -32,7 +36,6 @@
     .container-principal {
         flex-direction: column;
         nav {
-            transform: translateY(375px);
             width: 100%;
             padding-top: 0px;
             margin-top: 0px;
@@ -49,6 +52,16 @@
             .bloco-links {
                 width: 236px;
                 padding: 0px 10%;
+                a,
+                p {
+                    line-height: 25px;
+                }
+                p {
+                    font-size: 12px;
+                }
+                a {
+                    font-size: 20px;
+                }
             }
             .titulo-dark-links {
                 width: 240px;
@@ -60,7 +73,6 @@
                 flex-direction: row;
                 justify-content: space-between;
                 width: 100%;
-                word-wrap: break-word;
             }
             .container-light-links {
                 display: flex;
@@ -80,11 +92,10 @@
         font-size: 16px;
     }
     footer {
-        transform: translateY(-538px);
         .background-footer {
             height: 250px;
             .background-footer-color {
-                font-size: 30px;
+                font-size: 5vw;
                 p {
                     width: 75%;
                     line-height: 50px;

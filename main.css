@@ -353,30 +353,6 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1339px) {
-  .container-dark-links {
-    padding-bottom: 32px;
-  }
-}
-
-@media only screen and (max-width: 1315px) {
-  .container-light-links {
-    padding-bottom: 32px;
-  }
-}
-
-@media only screen and (max-width: 1287px) {
-  .container-dark-links {
-    padding-bottom: 64px;
-  }
-}
-
-@media only screen and (max-width: 1269px) {
-  .container-light-links {
-    padding-bottom: 64px;
-  }
-}
-
 @media only screen and (max-width: 1250px) {
   header .cabecalho {
     -webkit-box-orient: vertical;
@@ -384,6 +360,9 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     height: auto;
+  }
+  header .cabecalho .cabecalho-conteudo {
+    line-height: 40px;
   }
   header .cabecalho .container-cabecalho {
     width: 100%;
@@ -395,6 +374,7 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
             justify-content: center;
     margin-left: 0px;
     border-radius: 0px;
+    line-height: 50px;
   }
   header .cabecalho .container-cabecalho #symbol {
     height: 30px;
@@ -420,8 +400,6 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
             flex-direction: column;
   }
   .container-principal nav {
-    -webkit-transform: translateY(375px);
-            transform: translateY(375px);
     width: 100%;
     padding-top: 0px;
     margin-top: 0px;
@@ -440,6 +418,16 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
     width: 236px;
     padding: 0px 10%;
   }
+  .container-principal nav .bloco-links a,
+  .container-principal nav .bloco-links p {
+    line-height: 25px;
+  }
+  .container-principal nav .bloco-links p {
+    font-size: 12px;
+  }
+  .container-principal nav .bloco-links a {
+    font-size: 20px;
+  }
   .container-principal nav .titulo-dark-links {
     width: 240px;
     padding: 0px 10%;
@@ -457,7 +445,6 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
-    word-wrap: break-word;
   }
   .container-principal nav .container-light-links {
     display: -webkit-box;
@@ -483,15 +470,11 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
   section {
     font-size: 16px;
   }
-  footer {
-    -webkit-transform: translateY(-538px);
-            transform: translateY(-538px);
-  }
   footer .background-footer {
     height: 250px;
   }
   footer .background-footer .background-footer-color {
-    font-size: 30px;
+    font-size: 5vw;
   }
   footer .background-footer .background-footer-color p {
     width: 75%;
@@ -499,146 +482,6 @@ footer .container-footerlinks .container-footerlinks-position div:hover {
   }
   footer .container-footerlinks {
     height: 122px;
-  }
-}
-
-@media only screen and (max-width: 810px) {
-  footer {
-    -webkit-transform: translateY(-598px);
-            transform: translateY(-598px);
-  }
-  header #titulo {
-    font-size: 30px;
-  }
-  header #subtitulo {
-    font-size: 16px;
-  }
-  header .cabecalho .container-cabecalho #symbol {
-    height: 5px;
-    width: 5px;
-  }
-  header .cabecalho .container-sub-cabecalho .container-arrows #botao-meio {
-    overflow-x: hidden;
-  }
-  nav .bloco-links {
-    height: auto;
-  }
-  nav .bloco-links p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-}
-
-@media only screen and (max-width: 788px) {
-  footer {
-    -webkit-transform: translateY(-600px);
-            transform: translateY(-600px);
-  }
-}
-
-@media only screen and (max-width: 785px) {
-  footer {
-    -webkit-transform: translateY(-625px);
-            transform: translateY(-625px);
-  }
-}
-
-@media only screen and (max-width: 776px) {
-  footer {
-    -webkit-transform: translateY(-510px);
-            transform: translateY(-510px);
-  }
-  nav .container-light-links .titulo-links {
-    height: 20px;
-    font-size: 15px;
-  }
-  nav .container-dark-links {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 670px) {
-  footer .background-footer .background-footer-color p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  footer .container-footerlinks .container-footerlinks-position div {
-    width: 35px;
-    height: 35px;
-  }
-  footer .container-footerlinks .container-footerlinks-position div i {
-    font-size: 20px;
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px);
-  }
-  footer .container-footerlinks .container-footerlinks-position div span {
-    top: 0px;
-  }
-}
-
-@media only screen and (max-width: 622px) {
-  .paddings-section, #section1, #section2, #section3, #section4 {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  footer {
-    -webkit-transform: translateY(-526px);
-            transform: translateY(-526px);
-  }
-}
-
-@media only screen and (max-width: 442px) {
-  footer {
-    -webkit-transform: translateY(-425px);
-            transform: translateY(-425px);
-  }
-  nav .container-light-links .titulo-links {
-    font-size: 0.6em;
-  }
-  nav .container-dark-links {
-    font-size: 0.6em;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-  footer {
-    -webkit-transform: translateY(-435px);
-            transform: translateY(-435px);
-  }
-}
-
-@media only screen and (max-width: 402px) {
-  footer {
-    -webkit-transform: translateY(-455px);
-            transform: translateY(-455px);
-  }
-}
-
-@media only screen and (max-width: 394px) {
-  footer {
-    -webkit-transform: translateY(-475px);
-            transform: translateY(-475px);
-  }
-}
-
-@media only screen and (max-width: 391px) {
-  footer {
-    -webkit-transform: translateY(-495px);
-            transform: translateY(-495px);
-  }
-}
-
-@media only screen and (max-width: 381px) {
-  footer {
-    -webkit-transform: translateY(-490px);
-            transform: translateY(-490px);
-  }
-}
-
-@media only screen and (max-width: 321px) {
-  footer {
-    -webkit-transform: translateY(-500px);
-            transform: translateY(-500px);
   }
 }
 /*# sourceMappingURL=main.css.map */
